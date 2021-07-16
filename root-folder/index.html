@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 101 Template</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href = "css/styles.css" rel = "stylesheet">
+</head>
+
+<body style="background-color: darkred;">
+
+<div class = "navbar navbar-inverse navbar-static-top">
+	<div class = "container">
+		<a href = "#" class = "navbar-brand">Tesla Motors</a>
+
+		<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+		</button>
+
+	</div>
+		<div class="collapse navbar-collapse navHeaderCollapse">
+
+			<ul class = "nav navbar-nav navbar-right">
+
+				<li class = "active"><a href="index.html">Home</a></li>
+				<li><a href="news.html">Tesla in 2050</a></li>
+				<li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="https://twitter.com/tesla?lang=en">Twitter</a></li>
+                     <li><a href="https://www.instagram.com/teslamotors/?hl=en">Instagram</a></li>
+                  
+                  </ul>
+                  </li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				
+
+			</ul>
+
+		</div>
+</div>
+
+
+<div class = "container">
+	<div class = "jumbotron" style="background-color: darkred; color: whitesmoke;">
+		<span class = "border border-primary"></span>
+		<center><h1>Tesla</h1>
+		<p><i> To accelerate the advent of sustainable transport.<i></p>
+		<a class = "btn btn-default">Watch Now!</a>
+		<a class = "btn btn-info">Tweet It!</a></center>
+
+
+
+
+	</div>
+</div>
+	
+<div class = "container" style="background-color: darkred; color: whitesmoke;">
+	<div class = "row">
+		<div class = "col-md-3">
+			<img src="models.jpeg">
+			<center><h3> Model S </center></h3>
+			<center><p>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk.</p></center>
+			<center><a href = "https://www.tesla.com/models/design#overview" class = "btn btn-default" target = "_blank">Purchase</a></center>
+
+		</div>
+
+		<div class = "col-md-3">
+			<img src="model3.jpeg" height="200px" width="220px">
+			<center><h3> Model 3 </center></h3>
+			<center><p>The Model 3 is an electric fastback mid-size four-door sedan developed by Tesla. The Model 3 Standard Range Plus version delivers an EPA-rated all-electric range of 263 miles (423 km) and the Long Range versions deliver 353 miles (568 km).</p></center>
+			<center><a href = "https://www.tesla.com/model3/design#overview" class = "btn btn-default" target = "_blank">Purchase</a></center>
+
+		</div>
+
+		<div class = "col-md-3">
+			<img src="modelx.jpeg" height="200px" width="220px">
+			<center><h3> Model X </center></h3>
+			<center><p>The Tesla Model X is a battery electric SUV with seating for five, six or seven people. Two trim levels are available, Long Range and Plaid (formerly the Performance trim), and every Model X is all-wheel-drive.</p></center>
+			<center><a href = "https://www.tesla.com/modelx/design#overview" class = "btn btn-default" target = "_blank">Purchase</a></center>
+		</div>
+
+		<div class = "col-md-3">
+			<img src="modely.jpeg" height="200px" width="220px">
+			<center><h3> Model Y </center></h3>
+			<center><p>The Tesla Model Y is an electric compact crossover utility vehicle (CUV) by Tesla, Inc. Model Y offers optional third-row seats for a seven-passenger seating capacity, The Model Y fills a smaller and less expensive segment than the full-sized Tesla Model X.</p></center>
+			<center><a href = "https://www.tesla.com/modely/design#overview" class = "btn btn-default" target = "_blank">Purchase</a></center>
+		</div>
+
+
+	</div>
+</div>
+<div class = "navbar navbar-default navbar-fixed-bottom">
+
+	<div class = "container">
+		<p class = "navbar-text pull-left">Site Built by Himanshu Deshpande</p>
+		<a href = "" class = "navar-button btn-danger btn pull-right">Subscribe on Youtube</a>
+
+	</div>
+</div>
+
+<div class = "modal fade" id = "contact" role = "dialogue">
+	<div class = "modal-dialog">
+		<div class= "modal-content">
+			<form class = "form-horizontal">
+				<div class = "modal-header">
+					<h4>Contact Tesla Motors</h4>
+				</div>
+				<div class="modal-body">
+					<div class = "form-group">
+						<label for = "contact-name" class = "col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type = "text" class = "form-control" id = "contact-name" placeholder = "full name">
+						</div>
+					</div>
+
+					<div class = "form-group">
+						<label for = "contact-email" class = " col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+						</div>
+					</div>
+
+					<div class = "form-group">
+						<label for = "contact-msg" class = "col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class = "form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+					<button class = "btn btn-primary" type = "submit">Send</button>
+
+				</div>
+		</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
